@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="docs/assets/logo.svg" alt="Prazium" width="120" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="logo.light.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="logo.dark.svg" />
+    <img src="logo.dark.svg" alt="Prazium" width="120" />
+  </picture>
 </p>
 
 <h1 align="center">Prazium</h1>
